@@ -1,0 +1,19 @@
+.inner > div {
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: 0.5s;
+}
+
+.inner:hover > div {
+    top: 0;
+}
+
+@media screen and (max-width: 992px) { 
+    .inner > div h2{
+          font-size: 1.2rem;
+          padding-top: 1rem !important;
+      }
+      .inner > div p{
+        font-size: small;
+      }
+  }

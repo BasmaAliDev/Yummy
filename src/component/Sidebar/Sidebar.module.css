@@ -1,0 +1,29 @@
+.main-nav{
+    top:0;
+    height: 100%;
+    background-color: #0d0d0d;
+    color: #fff ;
+    display: flex;
+    z-index: 99999;
+    transition: left 350ms;
+}
+.main-nav >:nth-child(1){
+    max-width: 250px;
+}
+.main-nav >:nth-child(2){
+    background-color: #ffffff;
+   
+}
+.main-nav ul li{
+    padding: 5px;
+    font-size: 18px;
+    transition: background-color 350ms , transform 350ms;
+}
+
+.main-nav ul li:hover{
+    
+    transform: translateX(10px);
+}
+.logo{
+    max-width: 50px !important;
+}
